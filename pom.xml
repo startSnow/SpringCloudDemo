@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>cn.com.taiji</groupId>
@@ -44,21 +45,12 @@
 
 
 	<modules>
-		<module>open-eureka-oauth2-server</module>
 		<module>open-eureka-server</module>
-		<module>open-eureka-oauth2-client</module>
-		<module>open-eureka-oauth2-serverB</module>
-		<module>open-eureka-oauth2-server-ribbon</module>
-		<module>open-oauth2-zuul-api-gateway</module>
 		<module>open-cloud-admin</module>
-    <module>open-config</module>
-    <module>open-config-client</module>
-    <module>zuul</module>
-    <module>open-cloud-exam</module>
-    <module>open-cloud-idiom-ui</module>
-    <module>open-cloud-idiom-hystrix-dashboard</module>
-    <module>open-cloud-zuul</module>
-    <module>open-cloud-idiomA</module>
-    <module>open-cloud-idiom-A</module>
-  </modules>
+		<module>open-config-server</module>
+		<module>open-cloud-idiom</module>
+		<module>open-cloud-idiom-ui</module>
+		<module>open-cloud-idiom-hystrix-dashboard</module>
+		<module>open-cloud-idiom-zuul</module>
+	</modules>
 </project>
